@@ -1,0 +1,63 @@
+{
+  "feature_columns": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "wine_type"
+  ],
+  "class_names": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "results": {
+    "Logistic Regression": {
+      "Accuracy": 0.5823,
+      "AUC": 0.7324,
+      "Precision": 0.5873,
+      "Recall": 0.5823,
+      "F1": 0.5763,
+      "MCC": 0.3268
+    },
+    "Decision Tree": {
+      "Accuracy": 0.6062,
+      "AUC": 0.7324,
+      "Precision": 0.6086,
+      "Recall": 0.6062,
+      "F1": 0.6069,
+      "MCC": 0.3836
+    },
+    "KNN": {
+      "Accuracy": 0.5823,
+      "AUC": 0.7523,
+      "Precision": 0.5855,
+      "Recall": 0.5823,
+      "F1": 0.5836,
+      "MCC": 0.3474
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.4815,
+      "AUC": 0.6554,
+      "Precision": 0.4966,
+      "Recall": 0.4815,
+      "F1": 0.4816,
+      "MCC": 0.2172
+    },
+    "Random Forest": {
+      "Accuracy": 0.7277,
+      "AUC": 0.8805,
+      "Precision": 0.7348,
+      "Recall": 0.7277,
+      "F1": 0.7276,
+      "MCC": 0.5675
+    }
+  }
+}

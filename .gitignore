@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Submission files (local only)
+generate_pdf.py
+ML_Assignment_2_Submission.pdf
